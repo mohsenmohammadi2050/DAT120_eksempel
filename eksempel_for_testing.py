@@ -27,7 +27,7 @@ def perfekt(tall):
     
 #oppgave c
 if __name__ == "__main__":
-    tall = int(input("Hvilket tall skal jeg sjekke om er perfekt? "))
+    tall = int(input("which number do you want to chekck? "))
     if perfekt(tall):
         print(f"{tall} er perfekt")
     else:
