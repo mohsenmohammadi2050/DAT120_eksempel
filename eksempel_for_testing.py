@@ -19,7 +19,7 @@ def perfekt(tall):
         if delelig(tall, dele_på):
             sum_av_faktorer += dele_på
             print(f"Faktor: {dele_på}")
-    print(f"sum av faktorer: {sum_av_faktorer}")
+    print(f"sum av factor: {sum_av_faktorer}")
     if sum_av_faktorer == tall:
         return True
     else:
@@ -29,6 +29,6 @@ def perfekt(tall):
 if __name__ == "__main__":
     tall = int(input("which number do you want to chekck? "))
     if perfekt(tall):
-        print(f"{tall} er perfekt")
+        print(f"{tall} is perfect")
     else:
-        print(f"{tall} er ikke perfekt")
+        print(f"{tall} is not perfect")
