@@ -2,7 +2,7 @@
 """
 Created on Thu Oct 21 09:27:20 2021
 
-@author: Eier
+@author: mohsenmohammadi
 """
 
 def delelig(a, b):
